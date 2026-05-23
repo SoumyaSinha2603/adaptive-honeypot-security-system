@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+database/honeypot_v2.db
+*.pkl
+node_modules/
+dist/
+.env
