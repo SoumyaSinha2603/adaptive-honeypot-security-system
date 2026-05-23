@@ -1,8 +1,51 @@
+# --------------------
+# Python Backend
+# --------------------
 venv/
 __pycache__/
 *.pyc
-database/honeypot_v2.db
-*.pkl
+*.pyo
+*.pyd
+*.sqlite3
+.env
+
+# FastAPI / Python build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# --------------------
+# Node Frontend
+# --------------------
 node_modules/
 dist/
+
+# Environment files
 .env
+.env.local
+
+# Vite
+.vite/
+
+# --------------------
+# OS / Editor files
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Database / temp files
+# --------------------
+*.db
+*.sqlite
+
+# --------------------
+# Misc
+# --------------------
+coverage/
+.cache/
