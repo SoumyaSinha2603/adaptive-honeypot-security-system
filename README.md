@@ -238,15 +238,22 @@ Full academic project report (40+ pages) including system architecture, UML diag
 **Guide:** Prof. Dr. Abhishek Ray, Dean of Industry Engagements
 
 ---
+## 👥 Contributors
 
-## 👤 Author
-
-**Aditya Keshav** — Backend architecture, 7-layer authentication pipeline, ML Model 1 (21-feature Random Forest), BCrypt integration, database seeding
+### Aditya Keshav
+Backend architecture, 7-layer authentication pipeline, ML Model 1 (21-feature Random Forest), BCrypt integration, database seeding
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--keshavv-0077B5?logo=linkedin)](https://linkedin.com/in/aditya-keshavv/)
 [![GitHub](https://img.shields.io/badge/GitHub-adityakeshavv-181717?logo=github)](https://github.com/adityakeshavv/)
 
 ---
+
+### Soumya Kumar Sinha
+Dashboard analytics integration, frontend/backend debugging, telemetry workflow improvements, deployment & testing
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-soumya--sinha-0077B5?logo=linkedin)](https://linkedin.com/in/soumya-kumar-sinha-0091ab254/)
+[![GitHub](https://img.shields.io/badge/GitHub-SoumyaSinha2603-181717?logo=github)](https://github.com/SoumyaSinha2603/)
+```
 
 ## ⚠️ Disclaimer
 
