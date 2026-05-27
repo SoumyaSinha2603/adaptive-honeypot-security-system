@@ -283,8 +283,7 @@ Security analytics dashboard, attack detection performance analysis, cybersecuri
 ### Tanmay Mishra
 Deception architecture, honeypot workflow design, CAPTCHA & OTP authentication logic, SQLite schema planning, database structure design, honeypot-vs-real-dashboard comparison analysis
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanmay--mishra-0077B5?logo=linkedin)](https://linkedin.com/in/tanmay-mishra-539707221/)
-[![GitHub](https://img.shields.io/badge/GitHub-tanmaymishra-181717?logo=github)](https://github.com/tanmaymishrab0c9/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanmay--mishra-0077B5?logo=linkedin)](https://linkedin.com/in/tanmay-mishra-539707221/) [![GitHub](https://img.shields.io/badge/GitHub-tanmaymishra-181717?logo=github)](https://github.com/tanmaymishrab0c9/)
 
 ---
 
