@@ -241,19 +241,52 @@ Full academic project report (40+ pages) including system architecture, UML diag
 ## 👥 Contributors
 
 ### Aditya Keshav
-Backend architecture, 7-layer authentication pipeline, ML Model 1 (21-feature Random Forest), BCrypt integration, database seeding
+Backend architecture, behavioural feature engineering, 21-feature ML input design, Random Forest attack detection logic, BCrypt integration, database seeding, human-vs-bot behavioural analysis
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--keshavv-0077B5?logo=linkedin)](https://linkedin.com/in/aditya-keshavv/)
 [![GitHub](https://img.shields.io/badge/GitHub-adityakeshavv-181717?logo=github)](https://github.com/adityakeshavv/)
 
 ---
 
+### Anmol Kumar
+Core solution architecture, Detect-Deceive-Learn workflow design, 7-layer authentication pipeline planning, system integration architecture, cybersecurity workflow modelling
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-anmol--kumar-0077B5?logo=linkedin)](https://linkedin.com/in/anmolkumar1909/)
+[![GitHub](https://img.shields.io/badge/GitHub-anmolkumar-181717?logo=github)](https://github.com/Anmol1909/)
+
+---
+
+### Tanya Swain
+Problem statement formulation, project workflow planning, cybersecurity threat analysis, research-oriented project structuring, introductory framework and documentation design
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanya--swain-0077B5?logo=linkedin)](https://linkedin.com/in/tanya-swain-157789346/)
+[![GitHub](https://img.shields.io/badge/GitHub-tanyaswain-181717?logo=github)](https://github.com/tanyaswainn/)
+
+---
+
+### Snehashish Sahu
+Machine learning workflow analysis, ML Model 1 & ML Model 2 research, drift detection logic, anomaly detection concepts, data flow diagram (DFD) modelling
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-snehashish--sahu-0077B5?logo=linkedin)](https://linkedin.com/in/snehashish-sahu-7b2a13348/)
+[![GitHub](https://img.shields.io/badge/GitHub-snehashishsahu-181717?logo=github)](https://github.com/Snehashish-Sahu/)
+
+---
+
 ### Soumya Kumar Sinha
-Dashboard analytics integration, frontend/backend debugging, telemetry workflow improvements, deployment & testing
+Security analytics dashboard, attack detection performance analysis, cybersecurity reporting, dashboard visualisation concepts, use case modelling, future scope planning, conclusion framework
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-soumya--sinha-0077B5?logo=linkedin)](https://linkedin.com/in/soumya-kumar-sinha-0091ab254/)
 [![GitHub](https://img.shields.io/badge/GitHub-SoumyaSinha2603-181717?logo=github)](https://github.com/SoumyaSinha2603/)
-```
+
+---
+
+### Tanmay Mishra
+Deception architecture, honeypot workflow design, CAPTCHA & OTP authentication logic, SQLite schema planning, database structure design, honeypot-vs-real-dashboard comparison analysis
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanmay--mishra-0077B5?logo=linkedin)](https://linkedin.com/in/tanmay-mishra-539707221/)
+[![GitHub](https://img.shields.io/badge/GitHub-tanmaymishra-181717?logo=github)](https://github.com/tanmaymishrab0c9/)
+
+---
 
 ## ⚠️ Disclaimer
 
