@@ -64,8 +64,8 @@ def train():
     attack = np.column_stack([
         rng.uniform(0, 24, n_attack),
         np.where(rng.rand(n_attack) > 0.5,
-                 rng.uniform(500, 1200, n_attack),
-                 rng.uniform(1, 10, n_attack)),
+        rng.uniform(500, 1200, n_attack),
+        rng.uniform(1, 10, n_attack)),
         rng.poisson(0.1, n_attack),
         np.zeros(n_attack),
         rng.uniform(0, 50, n_attack),
