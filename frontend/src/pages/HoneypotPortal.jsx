@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 function HoneypotNav({ active, onNav }) {
@@ -8,7 +8,15 @@ function HoneypotNav({ active, onNav }) {
     <>
       <div className="bg-hdfc-navy text-xs text-gray-300 px-6 py-1.5 flex justify-between">
         <span>Customer Care: 1800-202-6161 (Toll Free)</span>
-        <span>English | Logout</span>
+        <span>
+  English |
+  <button
+    onClick={handleLogout}
+    className="ml-1 text-white hover:underline"
+  >
+    Logout
+  </button>
+</span>
       </div>
       <div className="bg-white shadow-md border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
@@ -247,6 +255,10 @@ export default function HoneypotPortal() {
   const sessionId = searchParams.get('session') || 'demo-session'
   const [tab, setTab] = useState('dashboard')
   const clicksRef = useRef(0)
+  const navigate = useNavigate()
+  const handleLogout = () => {
+  navigate('/')
+}
 
   useEffect(() => {
     const interval = setInterval(() => {
