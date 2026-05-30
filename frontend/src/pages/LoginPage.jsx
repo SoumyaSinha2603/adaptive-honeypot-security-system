@@ -67,19 +67,29 @@ export default function LoginPage() {
     }
   }
 
-  const handleForm = (e) => { e.preventDefault(); submit(null) }
+  const handleForm = (e) => {
+  e.preventDefault();
+
+  if (demoMode === 'bot') {
+    submit(BOT_FEATURES);
+  } else if (demoMode === 'human') {
+    submit(HUMAN_FEATURES);
+  } else {
+    submit(null);
+  }
+}
 
   const simulateBot = () => {
     setUsername('rajesh.kumar'); setPassword('Rajesh@2024')
     setDemoMode('bot')
-    setTimeout(() => submit(BOT_FEATURES), 200)
+    setTimeout('')
     
   }
 
   const simulateHuman = () => {
     setUsername('rajesh.kumar'); setPassword('Rajesh@2024')
     setDemoMode('human')
-    setTimeout(() => submit(HUMAN_FEATURES), 200)
+    setTimeout('')
   }
 
   return (
