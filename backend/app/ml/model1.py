@@ -1,12 +1,13 @@
+
 """
-ML Model 1 — Upgraded to 21 features.
+ML Model 1 â€” Upgraded to 21 features.
 New features added:
-  16. keystroke_variance    — std dev of keystroke intervals (0 = bot)
-  17. scroll_depth          — how far user scrolled (0 = bot)
-  18. copy_paste_detected   — programmatic field fill detected
-  19. reading_time          — seconds before first interaction
-  20. hesitation_count      — pauses > 500ms mid-typing
-  21. mouse_path_curvature  — 0=straight line (bot), 1=natural curve
+  16. keystroke_variance    â€” std dev of keystroke intervals (0 = bot)
+  17. scroll_depth          â€” how far user scrolled (0 = bot)
+  18. copy_paste_detected   â€” programmatic field fill detected
+  19. reading_time          â€” seconds before first interaction
+  20. hesitation_count      â€” pauses > 500ms mid-typing
+  21. mouse_path_curvature  â€” 0=straight line (bot), 1=natural curve
 """
 
 import os, pickle, numpy as np
@@ -35,7 +36,7 @@ def train():
     rng = np.random.RandomState(42)
     n_normal, n_attack = 4000, 1200
 
-    # ── Normal user data ──────────────────────────────────────────────────────
+    # â”€â”€ Normal user data â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     normal = np.column_stack([
         rng.uniform(8, 22, n_normal),                                          # login_time
         rng.normal(60, 15, n_normal),                                          # typing_speed
@@ -60,7 +61,7 @@ def train():
         rng.normal(0.7, 0.15, n_normal),                                       # mouse_path_curvature (curved)
     ])
 
-    # ── Attacker data ─────────────────────────────────────────────────────────
+    # â”€â”€ Attacker data â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     attack = np.column_stack([
         rng.uniform(0, 24, n_attack),
         np.where(rng.rand(n_attack) > 0.5,
@@ -105,7 +106,7 @@ def train():
     with open(MODEL_PATH, "wb") as f:
         pickle.dump({"pipeline": pipeline, "features": FEATURES}, f)
 
-    print(f"✅ Model 1 (21 features) trained → {MODEL_PATH}")
+    print(f"âœ… Model 1 (21 features) trained â†’ {MODEL_PATH}")
     return pipeline
 
 
@@ -143,3 +144,4 @@ def predict(features: dict) -> dict:
         "confidence": round(prob, 4),
         "trigger": "rule_based" if rule_triggered else "ml_model1",
     }
+

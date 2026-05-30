@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-function HoneypotNav({ active, onNav }) {
+function HoneypotNav({ active, onNav, handleLogout }) {
   const tabs = ['dashboard','transactions','transfer','beneficiary','settings']
   return (
     <>
@@ -280,7 +280,7 @@ export default function HoneypotPortal() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <HoneypotNav active={tab} onNav={setTab} />
+      <HoneypotNav active={tab} onNav={setTab} handleLogout={handleLogout} />
       <div className="max-w-7xl mx-auto px-4 py-6">
         <TabComponent sessionId={sessionId} />
       </div>

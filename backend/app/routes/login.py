@@ -111,6 +111,7 @@ async def login(body: LoginRequest, request: Request, db: Session = Depends(get_
 
     # ── Layer 5: ML Model 1 ───────────────────────────────────────────────────
     ml_result = model1.predict(features)
+    print("ML RESULT =", ml_result)
     verdict    = ml_result["label"]
     confidence = ml_result["confidence"]
     trigger    = ml_result["trigger"]

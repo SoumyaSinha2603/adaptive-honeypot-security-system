@@ -27,6 +27,7 @@ const HUMAN_FEATURES = {
 }
 
 export default function LoginPage() {
+  console.log("LOGIN PAGE RENDERED")
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [captchaToken, setCaptchaToken] = useState('')
@@ -69,9 +70,10 @@ export default function LoginPage() {
   const handleForm = (e) => { e.preventDefault(); submit(null) }
 
   const simulateBot = () => {
-    setUsername('victim.user'); setPassword('wrongpass')
+    setUsername('rajesh.kumar'); setPassword('Rajesh@2024')
     setDemoMode('bot')
     setTimeout(() => submit(BOT_FEATURES), 200)
+    
   }
 
   const simulateHuman = () => {

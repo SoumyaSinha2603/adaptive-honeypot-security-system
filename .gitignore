@@ -49,3 +49,14 @@ Thumbs.db
 # --------------------
 coverage/
 .cache/
+
+codedump.txt
+project_code_only.txt
+structure.txt
+
+node_modules/
+venv/
+__pycache__/
+
+*.db
+backend/database/*.db
